@@ -1,0 +1,74 @@
+/*@charset "ISO-8859-1";*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: arial;
+	background-color:#E7DFE0;
+	text-align: justify;
+}
+h1{
+	color:#FF6F00;
+	font-size:70px;
+	text-shadow: 1px 1px 2px red;
+	font-family: impact,rockwell, Time Neu Roman;
+	font-style: italic;
+	font-weight: bold;
+	
+}
+p{
+	font-style:italic;
+	font-size:20px;
+
+}
+header{
+	text-align:center;
+	height: 900px;
+	width: 100%;
+	background-image: url("../images/Portada.jpg");
+	background-size:cover;
+}
+h2{
+	color:#18082D;
+	font-size:40px;
+	font-family: impact,rockwell, Time Neu Roman;
+	font-style: italic;
+	font-weight: bold;
+	text-align:center;
+}
+
+nav a {
+    display: block;
+    padding: 14px;
+    padding-right:20px;
+    text-align: left;
+    color:brown;
+}
+
+section{
+	padding-top:20px;
+	display:inline-block;
+	max-width:78%; 
+}
+article h3{
+	text-decoration: underline;
+	font-style:italic;
+	font-size:20px;
+	text-shadow: 1px 1px 2px black;
+	
+}
+section article,article p,p{
+	padding:10px;
+}
+
+footer{
+	display:block;
+	width:100%;
+	text-align:center;
+	bottom:0;
+	color:white;
+	background-color:black;
+	font-size:14px;
+}
